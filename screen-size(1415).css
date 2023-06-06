@@ -1,0 +1,23 @@
+
+
+@media only screen and (max-width: 1413px){
+
+  .quick-links-right div{
+    width: calc(95%/4);
+    min-width: 8rem;
+    height: calc(75%/3 - 0.35rem);
+    /* background-color: rgb(199, 129, 190); */
+    padding: 1rem;
+  }
+
+  .quick-links-right div i{
+    margin-top: 20%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .quick-links-right div a,p{
+    font-size: 0.7rem;
+  }
+
+}

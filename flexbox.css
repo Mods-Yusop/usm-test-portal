@@ -1,0 +1,65 @@
+/*   USING FLEXBOX    */
+
+
+/* creating a invisible x and y axis(main axis: x)*/
+.container{
+  display: flex;
+}
+/* changing the direction to y axis*/
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+  /* changing the position of a child horizontally*/
+.container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* changing the position of a child vertically*/
+.container{
+  display: flex;
+  align-items: center;
+}
+
+/* changing the wrapping of childs in parent (you can only use align-content when you use flex-wrap property)*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* adding gap to your childs*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* --------------------------------- ADDING FLEX GROW TO YOUR CHILD ----------------------------------------- */
+
+/* its just like span in css grid */
+.child-1{
+  flex-grow: 1;
+}
+
+/* prioritizes child 1 in shrinking */
+.child-1{
+  flex-shrink: 5;
+}
+
+/* overriding your item size */
+.child-1{
+  flex-basis: 300px;
+}
+
+/* overriding your align items property on a specific child*/
+.child-1{
+  align-self: center;
+}
+
+/* ochanging the order of your child */
+.child-1{
+  order: ;
+}

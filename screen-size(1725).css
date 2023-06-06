@@ -1,0 +1,20 @@
+
+
+
+
+@media only screen and (max-width: 1768px){
+
+  .quick-links-right div{
+    width: calc(95%/5);
+    min-width: 9rem;
+    height: calc(85%/3 - 0.35rem);
+    /* background-color: rgb(83, 137, 255); */
+    padding: 1rem;
+  }
+
+  .quick-links-right div a,p{
+    font-size: 0.7rem;
+  }
+
+}
+
